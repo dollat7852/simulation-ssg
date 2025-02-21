@@ -1,6 +1,4 @@
 # simulation-ssg
-TRAFFIC MANAGEMENT SYSTEM
-graph TD
     A[Start: manage_traffic function] --> B{Get Current Time, Queues, Emergency Vehicle};
     B -- Emergency Vehicle Detected? --> C[clear_path_for_emergency_vehicle function];
     C --> D[Return];
